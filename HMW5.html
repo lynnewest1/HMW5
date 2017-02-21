@@ -1,23 +1,42 @@
 <!doctype html>
 <html>
-    <head>
     </head>
     <title>Pizza</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="HMW5.css">
     <link rel="stylesheet" href="HMW5extra.css">
     <script src="HMW5.js"> </script>
     <body>
-        <h1> this is my new page </h1>
+        <div class="jumbotron"
+            <h1 id="firstHead"> this is my new page </h1>
+        </div>
         <div class="firstText">
-            <p id="para1"> Pizza <span id= "goingID"></span>" going to happen here</p>
-            <button id="btn1"> topping1</button>
+            <p id="para1"> Pizza is <span id= "goingID">going</span> to happen here</p>
+            <button id="btn1" onclick="changeHead2()"topping1</button>
             <button id="btn2"> topping2</button>
         </div>
-        <h2>Here is some more pizza</h2>
+        <h2 id="head2">Here is some more pizza</h2>
         <h3>And yet some more pizza</h3>
-        <button>push me</button>
-        <img src="https://fortunedotcom.files.wordpress.com/2016/05/pizza-hut-pepperoni-pizza.jpg" id="pizza" alt="a pepperoni pizza"></img>
-        <a href="http:/google.com">go to google.com</a>
-        <input id="my input"/>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=".col-lg-4"><button onclick="addInputs()" >push me</button></div>
+                <div class=".col-lg-8"> 
+                    <img src="https://fortunedotcom.files.wordpress.com/2016/05/pizza-hut-pepperoni-pizza.jpg" id="pizza" alt="a pepperoni pizza"></img>
+                    <a href="http:/google.com">go to google.com</a>
+                <input id="my input"/>
+               
+            </div>
+        </div>
+         <p id="Total"><p>
     </body>
 </html>
