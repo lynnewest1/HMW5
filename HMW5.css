@@ -15,15 +15,24 @@
     width: 200px;
     background-color: red;
     color: antiquewhite;
-    font-family: fantasy;
+    font-family: Georgia;
     font-size: 20;
 }
 #btn2 {
     width: 200px;
     background-color: red;
     color: antiquewhite;
-    font-family: fantasy;
+    font-family: Georgia;
     font-size: 20;
+}
+
+    #btn3 {
+        width: 200px;
+        background-color: red;
+        color: antiquewhite;
+        font-family: Georgia;
+        font-size: 20;
+    }
 }
 #firstHead {
     font-size: 32pt;
