@@ -30,22 +30,47 @@
         </div>
            
         <div class="container-fluid">
-             
-                <div class=".col-md-4"> 
+            <div class="row">
+             <div class="col-md-4"> 
                     <img src="pizza_tomatoes_and_basil.jpg" id="pizza"></img>
-                    <button id="btn1" onclick="changeHead2()">Goat Cheese</button>
+                </div>
+                <div class="col-md-4">
+                    <button id="btn1" onclick="addGoatCheese()">Goat Cheese</button>
+                </div>
+                <div class"col-md-4">
                     <p> $2.00</p>
-                    <hr>
-                    <img src="pizza_with_ham_and_pineapple.jpg" id="pizza"><img>
-                    <button id="btn2" onclick="changeHead3()">Ham and Pineapple</button>
-                    <hr>
-                    <img src="meat lovers pizza.jpg" id="pizza"<img>
-                    <button id="btn3" onclick="changeHead4()">Meat Lovers</button>
-               
+                </div>
+                <hr>
+
             </div>
+            <hr/>
+            <div class="row">
+             <div class="col-md-4"> 
+                    <img src="pizza_with_ham_and_pineapple.jpg" id="pizza"></img>
+                </div>
+                <div class="col-md-4">
+                    <button id="btn1" onclick="addhamandpineapple()">Ham and Pineapple</button>
+                </div>
+                <div class"col-md-4">
+                    <p> $3.00</p>
+                </div>
+            </div> 
+            <hr/>
+            <div class="row">
+             <div class="col-md-4"> 
+                    <img src="meat lovers pizza.jpg" id="pizza"></img>
+                </div>
+                <div class="col-md-4">
+                    <button id="btn1" onclick="addmeatlovers()">Meat Lovers</button>
+                </div>
+                <div class="col-md-4">
+                    <p> $4.00</p>
+                </div>
+            </div>                       
+                  
         </div>
-        <button>Clear Order</button>
-         <p id="Total"><p>
+        <button onclick="clearOrder() ">Clear Order</button>
+         <p>Total: <span id="Total">0</span><p>
              
     </body>
 </html>

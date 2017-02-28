@@ -1,22 +1,12 @@
-function changeHead2 () {
+function addGoadCheese () {
 
-var origHead2 = document.getElementById("head2").innerHTML;
+var origTotal = document.getElementById("Total").innerHTML;
 
-var newHead2 = "new" + origHead2;
-
-document.getElementById("head2").innerHTML = newHead2;
-
-}
-function addInputs() {
-var currTotal = document.getElementById("Total").innerHTML;
-if (isNaN(currTotal)) {
-    currTotal = 0;
-}
-var myInput = document.getElementById("myinput").value;
-
-var newTotal = +myInput + +currTotal;
+var newTotal = +origTotal + 2;
 
 document.getElementById("Total").innerHTML = newTotal;
 
+}
+function clearOrder() {
 
 }
