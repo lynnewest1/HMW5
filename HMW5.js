@@ -9,7 +9,6 @@ document.getElementById("Total").innerHTML = newTotal;
 
 }
 
-}
 function clearOrder() {
     document.getElementById("Total").innerHTML = 0;
 
