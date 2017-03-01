@@ -1,4 +1,4 @@
-function addGoadCheese () {
+function addGoatCheese () {
 
 var origTotal = document.getElementById("Total").innerHTML;
 
