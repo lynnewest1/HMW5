@@ -8,6 +8,28 @@ var newTotal = +origTotal + 2;
 document.getElementById("Total").innerHTML = newTotal;
 
 }
+function addHamAndPineapple() {
+
+var origTotal = document.getElementById("Total").innerHTML;
+
+
+var newTotal = +origTotal + 3;
+
+document.getElementById("Total").innerHTML = newTotal;
+
+}
+function addMeatLovers(){
+
+
+var origTotal = document.getElementById("Total").innerHTML;
+
+
+var newTotal = +origTotal + 4;
+
+document.getElementById("Total").innerHTML = newTotal;
+
+}
+
 
 function clearOrder() {
     document.getElementById("Total").innerHTML = 0;
